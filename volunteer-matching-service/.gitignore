@@ -1,0 +1,117 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+*.pyo
+*.pyd
+
+# Virtual Environments
+.venv/
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# IDE & Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+*.sublime-project
+*.sublime-workspace
+
+# Testing & Type Checking
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+.hypothesis/
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# FastAPI & Uvicorn
+*.log
+*.pid
+
+# Chroma Vector Store & Embeddings
+.chroma/
+chroma_storage/
+.cache/
+sentence_transformers/
+*.pt
+*.pth
+*.model
+*.ckpt
+
+# Python package management
+.python-version
+uv.lock
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Environment files
+.env
+.env.local
+.env.*.local
+local_config.py
+settings.local.py
+
+# Jupyter Notebooks (if used)
+.ipynb_checkpoints/
+*.ipynb
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Project specific
+*.db
+*.sqlite
+*.sqlite3
+*.pkl
+*.pickle
+data/raw/
+data/processed/
+models/checkpoints/
+embeddings/cache/
+vectorstore/
+.vector_cache/
+
+# IDE Directories
+.idea/
+.vscode/
+*.code-workspace
+
+# macOS
+.AppleDouble
+.LSOverride
+*.swp
+.DS_Store
+
+# Windows
+*.lnk
+
